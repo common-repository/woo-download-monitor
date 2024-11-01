@@ -1,0 +1,87 @@
+
+.wdm_dl_container{
+	
+}
+
+.wdm_dl_container .wdm_dl_header{
+	
+}
+
+.wdm_dl_container .wdm_dl_list{
+	
+}
+
+
+.wdm_dl_container .wdm_dl_header,
+.wdm_dl_container .wdm_single_stat{
+	border-bottom: 1px solid #dadada;
+}
+
+.wdm_dl_container .wdm_dl_header .dl_meta{
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+.wdm_dl_container .wdm_dl_header .dl_meta,
+.wdm_dl_container .wdm_single_stat .dl_meta{
+	display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px;
+    padding: 5px 0;
+}
+.wdm_dl_container .wdm_single_stat .dl_meta.dl_meta_no_data{
+    text-align: center;
+}
+
+
+.wdm_dl_container .wdm_counter{
+    width: 30px;
+    text-align: center;
+}
+
+.wdm_dl_container .wdm_product_img{
+	width: 100px;
+	text-align: center;
+}
+.wdm_dl_container .wdm_product_img img{
+	width:80%;
+}
+
+.wdm_dl_container .wdm_product_name{
+    min-width: 420px;
+}
+
+.wdm_dl_container .wdm_product_price{
+    min-width: 80px;
+    text-align: center;
+}
+
+.wdm_dl_container .wdm_order_data{
+	min-width: 280px;
+}
+
+.wdm_dl_container .wdm_user_data{
+    min-width: 280px;
+}
+
+.wdm_dl_container .wdm_dl_count{
+    min-width: 120px;
+    text-align: center;
+}
+.wdm_dl_container .wdm_dl_count .dl_count{
+	font-size: 20px;
+    font-weight: 800;
+    color: #d08107;
+	font-style:italic;
+}
+.wdm_dl_container .wdm_dl_count .dl_text{
+	font-style:italic;
+}
+
+
+.wdm_dl_container .wdm_dl_time{
+    min-width: 120px;
+    text-align: center;
+}
+
+

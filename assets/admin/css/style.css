@@ -1,0 +1,44 @@
+/*
+Admin css
+*/
+
+
+@import 'wdm-downloads.css';
+@import 'wdm-statistics.css';
+
+
+
+
+
+/*paginate*/
+.wdm_stat_container .paginate, .wdm_stat_container .paginate {
+	margin: 30px 0;
+	text-align: center;
+}
+.wdm_stat_container .paginate .page-numbers, .wdm_stat_container .paginate .page-numbers {
+    background: #dcdcdc none repeat scroll 0 0;
+    margin: 0 2px;
+    padding: 5px 12px;
+    text-decoration: none;
+    border-radius: 3px;
+    color: #d66814;
+	outline:none;
+	box-shadow:none;
+}
+
+.wdm_stat_container .paginate .current, .wdm_stat_container .paginate .current {
+    background: #16A05C none repeat scroll 0 0;
+    color: #fff;
+}
+.wdm_stat_container .paginate .pre,
+.wdm_stat_container .paginate .prev,
+.wdm_stat_container .paginate .next,
+.wdm_stat_container .paginate .next{
+	background: #F5832B;
+    color: #fff;
+}
+
+
+#woocommerce-product-data ul.wc-tabs li.wdm_options a:before { 
+	content: "\f226";
+}

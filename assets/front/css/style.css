@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wdm_error {
+    background: #deb7b7;
+    padding: 2px 15px;
+    color: #860101;
+}
+
+.wdm_file_container {
+    clear: both;
+    display: block;
+    margin: 20px 0;
+}
+.wdm_file_container_header {
+    color: #a46497;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 0;
+}
+.wdm_single_file {
+    border-bottom: 1px solid #a46497;
+    padding: 10px 10px 25px;
+}
+.wdm_single_file:last-child{
+	border-bottom:none;
+}
+.wdm_single_file .wdm_single_file_meta {
+    display: inline-block;
+    margin-right: 12px;
+}
+.wdm_single_file .wdm_single_file_meta.wdm_file_name {
+    color: #525252;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+}
+.wdm_single_file .wdm_single_file_meta.wdm_file_icon {
+    color: #a46497;
+    display: inline-block;
+    font-size: 16px;
+}
+.wdm_single_file .wdm_single_file_meta.wdm_file_download {
+    display: inline-block;
+    float: right;
+    margin: 0;
+}
+.wdm_single_file .wdm_single_file_meta.wdm_file_download:hover {
+
+}
+.wdm_single_file .wdm_download_error {
+    color: #dd4f43;
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: left;
+}
+.wdm_single_file .wdm_download_error p{
+    margin: 5px 0;
+}
+
+
+
+.wdm_product_title {
+    font-size: 18px;
+    font-weight: 600;
+}
+.wdm_attribute_list .wdm_attribute_inline{
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 14px;
+	color: #797979;
+}
+.wdm_attribute_list .wdm_attribute_inline .wdm_attribute_name {
+    font-weight: 600;
+}
+
+
+
+
+
+
+.user_download_title {
+    vertical-align: text-top;
+    font-size: 12px;
+    color: #717171;
+}
+.user_download_show_error {
+    vertical-align: text-top;
+    font-size: 12px;
+    color: #c50c0c;
+}
+
+
+
+.user_download_view_more,.user_download_view_more:hover,.user_download_view_more:focus{
+	color: #5e5e5e !important;
+	outline:none !important;
+	border:none !important;
+	box-shadow:none !important;
+}
+
+
+
+.wdm_tooltip {
+    position: relative;
+    display: inline-block;
+}
+.wdm_tooltip .ttt {
+    visibility: hidden;
+    padding: 0px 20px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: -5px;
+    margin-left: 0;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.wdm_tooltip .ttt::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-left: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+.wdm_tooltip:hover .ttt {
+    visibility: visible;
+    opacity: 1;
+}
+.wdm_tooltip .ttt,
+.wdm_tooltip .ttt span {
+    font-size: 12px !important;
+    color: #e1e1e1;
+}
+.wdm_tooltip .ttt span.corange {
+    color: #f98e04;
+}
+

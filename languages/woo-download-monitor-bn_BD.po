@@ -1,0 +1,312 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-08-26 22:25+0600\n"
+"PO-Revision-Date: 2017-08-26 22:25+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: bn_BD\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: templates\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: includes\n"
+"X-Poedit-SearchPath-3: templates\n"
+
+#: includes/classes/class-functions.php:16
+msgid "Show Downloads - Single Product"
+msgstr "একক পন্যের ডাউনলোড দেখুন"
+
+#: includes/classes/class-functions.php:17
+msgid "Do you want to show downloads list in single product page?"
+msgstr "আপনি কি একক পন্যের ফ্রন্ট পেইজে ডাউনলোডযোগ্য ফাইলসমূহের তালিকা দেখাতে চান?"
+
+#: includes/classes/class-functions.php:19 includes/classes/class-functions.php:25
+#: includes/classes/class-functions.php:42
+msgid "Yes"
+msgstr "হ্যা"
+
+#: includes/classes/class-functions.php:19 includes/classes/class-functions.php:25
+#: includes/classes/class-functions.php:42
+msgid "No"
+msgstr "না"
+
+#: includes/classes/class-functions.php:22
+msgid "Display file extension"
+msgstr ""
+
+#: includes/classes/class-functions.php:23
+#, fuzzy
+#| msgid "Do you want to show downloads list in single product page?"
+msgid "If you want to display file extension on single product page?"
+msgstr "আপনি কি একক পন্যের ফ্রন্ট পেইজে ডাউনলোডযোগ্য ফাইলসমূহের তালিকা দেখাতে চান?"
+
+#: includes/classes/class-functions.php:28
+msgid "Item per page"
+msgstr ""
+
+#: includes/classes/class-functions.php:29
+msgid "Display item per page on stats page?"
+msgstr ""
+
+#: includes/classes/class-functions.php:35
+msgid "Options"
+msgstr "অপশন"
+
+#: includes/classes/class-functions.php:39
+msgid "Downloads require login - WooCommerce Setting"
+msgstr ""
+
+#: includes/classes/class-functions.php:40
+msgid "This setting does not apply to guest purchases - WooCommerce Setting"
+msgstr ""
+
+#: includes/classes/class-functions.php:48
+#, fuzzy
+#| msgid "Version:"
+msgid "Permissions"
+msgstr "সংস্করণ:"
+
+#: includes/classes/class-functions.php:90 includes/classes/class-functions.php:95
+#: includes/classes/class-functions.php:99
+msgid "Remove"
+msgstr "বাদ দিন"
+
+#: includes/classes/class-functions.php:102
+msgid "Add more"
+msgstr "আরও যোগ করুন"
+
+#: includes/classes/class-functions.php:148
+msgid "Choose File"
+msgstr "ফাইল সিলেক্ট করুন"
+
+#: includes/classes/class-settings.php:20
+#, fuzzy
+#| msgid "Download Monitor"
+msgid "WC Download Monitor"
+msgstr "ডাউনলোড মনিটর"
+
+#: includes/classes/class-settings.php:22
+msgid "Settings"
+msgstr "সেটিংস"
+
+#: includes/classes/class-shortcodes.php:28
+msgid "No Product ID found"
+msgstr ""
+
+#: includes/classes/class-woo-meta.php:22
+#, fuzzy
+#| msgid "Download Monitor"
+msgid "WC Download Motinor"
+msgstr "ডাউনলোড মনিটর"
+
+#: includes/functions.php:141 includes/functions.php:271
+#, fuzzy
+#| msgid "Sorry, you have reached your download limit for this file"
+msgid "You are restricted from downloading this File"
+msgstr "দুঃখিত, আপনার ডাউনলোড লিমিট হয়ে গেছে"
+
+#: includes/functions.php:202
+msgid "Invalid Product"
+msgstr "ভূল পন্য"
+
+#: includes/functions.php:212
+msgid "You must be logged in to download files"
+msgstr "ডাউনলোড করার জন্য, আপনাকে অবশ্যই লগিন করতে হবে"
+
+#: includes/functions.php:227
+#, fuzzy
+#| msgid "You are not allowed to Download"
+msgid "You are not allowed to download"
+msgstr "আপনার ডাউনলোড করার অনুমতি নেই"
+
+#: includes/functions.php:235
+msgid "Invalid Order"
+msgstr "ভূল অর্ডার"
+
+#: includes/functions.php:238
+msgid "Sorry, you have reached your download limit for this file"
+msgstr "দুঃখিত, আপনার ডাউনলোড লিমিট হয়ে গেছে"
+
+#: includes/functions.php:241
+msgid "Sorry, this download has expired"
+msgstr "দুঃখিত, আপনার ডাউনলোড টির নির্ধারিত সময় শেষ হয়ে গেছে"
+
+#: includes/functions.php:245
+msgid "This is not your download link"
+msgstr "এটা আপনার ডাউনলোড লিংক নয়"
+
+#: templates/actions/user-download-list.php:20
+#, fuzzy
+#| msgid "Download"
+msgid "Downloaded by: "
+msgstr "ডাউনলোড"
+
+#: templates/actions/user-download-list.php:24
+msgid "Invalid download ID !"
+msgstr ""
+
+#: templates/actions/user-download-list.php:32
+#, fuzzy
+#| msgid "Download Count"
+msgid "No download found !"
+msgstr "মোট ডাউনলোড"
+
+#: templates/downloadable-files.php:19
+#, fuzzy
+#| msgid "Available downloadable Files"
+msgid "Available downloadable files"
+msgstr "ডাউনলোডযোগ্য ফাইল সমূহ"
+
+#: templates/downloadable-files.php:39
+msgid "No Name"
+msgstr "পন্যের নাম"
+
+#: templates/downloadable-files.php:65
+msgid "Download"
+msgstr "ডাউনলোড"
+
+#: templates/menus/downloads.php:112 templates/menus/downloads.php:129
+#: templates/menus/downloads.php:147 templates/single-download.php:54
+#: templates/single-download.php:65 templates/single-download.php:76
+#: templates/single-stat.php:41 templates/single-stat.php:54
+#: templates/single-stat.php:72
+msgid "No Data"
+msgstr "কোনো তথ্য পাওয়া যায় নি"
+
+#: templates/menus/settings.php:21
+msgid "Changes Saved"
+msgstr "পরিবর্তন সংরক্ষন করা হয়েছে"
+
+#: templates/menus/settings.php:43
+msgid "Save Changes"
+msgstr "পরিবর্তন সংরক্ষন করুন"
+
+#: templates/menus/statistics.php:35
+msgid "Statistics"
+msgstr "পরিসংখ্যান"
+
+#: templates/menus/statistics.php:40
+msgid "Serial"
+msgstr "সিরিয়াল"
+
+#: templates/menus/statistics.php:41
+msgid "Thumbnail"
+msgstr "দৃশ্যপট"
+
+#: templates/menus/statistics.php:42
+msgid "Product Name"
+msgstr "পন্যের নাম"
+
+#: templates/menus/statistics.php:43
+msgid "Product Price"
+msgstr "পন্যের দাম"
+
+#: templates/menus/statistics.php:44
+msgid "Order Data"
+msgstr "অর্ডারের তথ্য"
+
+#: templates/menus/statistics.php:45
+msgid "User Data"
+msgstr "ব্যাবহারকারীর তথ্য"
+
+#: templates/menus/statistics.php:46
+msgid "Download Count"
+msgstr "মোট ডাউনলোড"
+
+#: templates/menus/statistics.php:47
+msgid "Download Time"
+msgstr "ডাউনলোডের সময়য়"
+
+#: templates/product-meta-data.php:14
+msgid "Select a Role"
+msgstr ""
+
+#: templates/product-meta-data.php:15
+msgid "Any Role"
+msgstr ""
+
+#: templates/product-meta-data.php:30
+#, fuzzy
+#| msgid "Show Downloads - Single Product"
+msgid "Allow Download - Public"
+msgstr "একক পন্যের ডাউনলোড দেখুন"
+
+#: templates/product-meta-data.php:31
+msgid "Allow public/visitors to download files without even login to the website"
+msgstr ""
+
+#: templates/product-meta-data.php:38
+#, fuzzy
+#| msgid "Show Downloads - Single Product"
+msgid "Allow Download - Role"
+msgstr "একক পন্যের ডাউনলোড দেখুন"
+
+#: templates/product-meta-data.php:39
+msgid "Allow a specific Role to download files without purchasing this product"
+msgstr ""
+
+#: templates/product-meta-data.php:49
+msgid "Restrict a Specific User"
+msgstr ""
+
+#: templates/product-meta-data.php:58
+msgid ""
+"Upsells are products which you recommend instead of the currently viewed "
+"product, for example, products that are more profitable or better quality or "
+"more expensive."
+msgstr ""
+
+#: templates/single-download.php:40 templates/single-stat.php:27
+msgid "Front View"
+msgstr "সামনের দিক থেকে দেখুন"
+
+#: templates/single-download.php:74
+msgid "Last Download"
+msgstr "সর্বশেষ ডাউনলোড"
+
+#: templates/single-download.php:74
+msgid " ago"
+msgstr " পূর্বে"
+
+#: templates/single-stat.php:61
+msgid "time(s)"
+msgstr "বার"
+
+#: woo-download-monitor.php:97
+msgid "WooCommerce Download Monitor"
+msgstr "WooCommerce Download Monitor"
+
+#~ msgid "Full Statistics"
+#~ msgstr "সম্পূর্ণ পরিসংখ্যান"
+
+#~ msgid "Free"
+#~ msgstr "বিনামূল্যে"
+
+#~ msgid "Price:"
+#~ msgstr "মূল্য:"
+
+#~ msgid "%s - Addons"
+#~ msgstr "%s - Addons"
+
+#~ msgid "%s Help"
+#~ msgstr "%s সাহায্য"
+
+#~ msgid "Help & Support"
+#~ msgstr "সাহায্য"
+
+#~ msgid "Need Help ?"
+#~ msgstr "সহযোগীতা দোরকার?"
+
+#~ msgid ""
+#~ "Feel free to contact with any issue for this plugin, Ask any question via "
+#~ "forum"
+#~ msgstr "যেকোনো সহযোগীতার জন্য যোগাযোগ করুন"
+
+#~ msgid "FAQ"
+#~ msgstr "প্রশ্ন করুন"
